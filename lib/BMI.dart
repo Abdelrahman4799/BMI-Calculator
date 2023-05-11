@@ -198,7 +198,9 @@ class _BmicalcState extends State<Bmicalc> {
                               children: [
                                 Padding(
                                   padding: const EdgeInsets.all(5.0),
-                                  child: FloatingActionButton(
+                                  child: FloatingActionButton(//4
+                                     heroTag: UniqueKey(),
+
                                       onPressed: () {
                                         setState(() {
                                           w++;
@@ -208,7 +210,9 @@ class _BmicalcState extends State<Bmicalc> {
                                 ),
                                 Padding(
                                   padding: const EdgeInsets.all(5.0),
-                                  child: FloatingActionButton(
+                                  child: FloatingActionButton(//1
+                                                                         heroTag: UniqueKey(),
+
                                       onPressed: () {
                                         setState(() {
                                           w--;
@@ -253,7 +257,9 @@ class _BmicalcState extends State<Bmicalc> {
                               children: [
                                 Padding(
                                   padding: const EdgeInsets.all(5.0),
-                                  child: FloatingActionButton(
+                                  child: FloatingActionButton(//2
+                                                                        heroTag: UniqueKey(),
+
                                       onPressed: () {
                                         setState(() {
                                           a++;
@@ -263,7 +269,8 @@ class _BmicalcState extends State<Bmicalc> {
                                 ),
                                 Padding(
                                   padding: const EdgeInsets.all(5.0),
-                                  child: FloatingActionButton(
+                                  child: FloatingActionButton(//3
+                                                                         heroTag: UniqueKey(),
                                       onPressed: () {
                                         setState(() {
                                           a--;
